@@ -54,10 +54,10 @@ Before you run the app each session, you'll need to launch the Android Emulator 
 1. Launch Command Prompt
 2. Download the repo: `git clone https://github.com/GM-Coding-Club/birdhouse.git`
 3. Change to its directory: `cd birdhouse`
-4. Start the app: `npm run android`
+4. Download dependencies `npm install`
 
 ### Setup Development Environment
-1. In Android Studio, open Preferences → System Settings → Android SDK
+1. In Android Studio, open Preferences → Appearance & Behavior → System Settings → Android SDK
 2. Copy the Android SDK Location field
 3. In your repo, open the file at `android/local.properties` in a text editor
 4. Paste the SDK Location in place of the placeholder
